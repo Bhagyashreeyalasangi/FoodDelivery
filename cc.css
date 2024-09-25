@@ -1,0 +1,81 @@
+body{
+    
+    background-image: url(https://wallpapers.com/images/hd/home-food-delivery-8tqxvtoty0mtfnl4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw,100vh;
+    background-attachment: fixed;
+
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(248, 248, 255);
+    
+}
+#item{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%; 
+    color: black;
+
+}
+h2{
+    font-size: 40px;
+    background-image: linear-gradient(rgba(239, 8, 8, 0.623),blue);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+form{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 5px;
+    height: 400px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.457);
+    align-items: center;
+    box-shadow: 10px 10px 5px rgba(202, 41, 41, 0.557);
+}
+.l{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    
+}
+.l>input{
+    width: 200px;
+    margin: 5px;padding: 5px;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.479);
+}
+
+.M{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+p:hover{
+    color: red;
+    cursor: pointer;
+}
+button{
+    height: 12%;
+    width: 24%;
+    border-radius: 30%;
+    box-shadow: 5px 5px rgb(165, 42, 42);
+    color: ghostwhite;
+    background-color: black;
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
